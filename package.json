@@ -1,0 +1,25 @@
+{
+  "name": "goit-js-hw-09-gallery-parcel-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09-gallery-parcel-/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksandrB1/goit-js-hw-09-gallery-parcel-.git"
+  },
+  "author": "Oleksandr Boiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksandrB1/goit-js-hw-09-gallery-parcel-/issues"
+  },
+  "homepage": "https://github.com/OleksandrB1/goit-js-hw-09-gallery-parcel-#readme",
+  "devDependencies": {
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.1"
+  }
+}
